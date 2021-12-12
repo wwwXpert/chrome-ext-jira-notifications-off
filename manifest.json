@@ -1,0 +1,26 @@
+{
+    "name": "Disable JIRA Notifications",
+    "version": "1.0",
+    "description": "Prevent JIRA Notifications from blocking view of tickets",
+    "author": "davidnguyen.us",
+    "manifest_version": 2,
+    "icons": {
+        "16": "icon_16.png",
+        "32": "icon_32.png",
+        "48": "icon_48.png",
+        "72": "icon_72.png",
+        "76": "icon_76.png",
+        "120": "icon_120.png",
+        "128": "icon_128.png",
+        "144": "icon_144.png",
+        "152": "icon_152.png",
+        "167": "icon_167.png",
+        "180": "icon_180.png"
+    },
+    "content_scripts": [{
+        "css": ["jira_notifications_off.css"],
+        "js": ["jquery-3.4.1.min.js", "jira_notifications_off.js"],
+        "matches": ["https://{your altlassian cloud url}/*"],
+        "persistent": true
+    }]
+}
