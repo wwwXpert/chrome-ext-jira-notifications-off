@@ -1,7 +1,7 @@
 # chrome-ext-jira-notifications-off
 Chrome Extension to disable Atlassian JIRA Notification Popups
 
-##CONFIGURATION
+**CONFIGURATION**
 
 - Update the manifest.json file by adding your Atlassian Cloud domain to the "matches" line.
 
