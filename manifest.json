@@ -1,6 +1,6 @@
 {
     "name": "Disable JIRA Notifications",
-    "version": "2.0.1",
+    "version": "2.0.3",
     "description": "Prevent JIRA Notifications from blocking view of tickets",
     "author": "davidnguyen.us",
     "manifest_version": 3,
