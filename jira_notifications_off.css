@@ -1,3 +1,4 @@
-﻿#jira>div.atlaskit-portal-container>div:nth-child(1)>div>div>div>div>div {
-    display: none!important
+﻿#jira>div.atlaskit-portal-container>div:nth-child(1)>div>div>div>div>div,
+#jira .atlaskit-portal-container div[role=alert] {
+    display: none !important
 }
